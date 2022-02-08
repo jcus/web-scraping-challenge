@@ -1,0 +1,946 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://api.mongodb.com/python/2.2/installation.html
+Subject: =?utf-8?Q?Installing=20/=20Upgrading=20=E2=80=94=20PyMongo=202.2=20docume?=
+ =?utf-8?Q?ntation?=
+Date: Tue, 8 Feb 2022 16:34:25 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE----"
+
+
+------MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE----
+Content-Type: text/html
+Content-ID: <frame-2239C54782E0C050FACD3B92D57D56FD@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://api.mongodb.com/python/2.2/installation.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3DUTF-8">
+   =20
+   =20
+    <title>Installing / Upgrading =E2=80=94 PyMongo 2.2 documentation</titl=
+e>
+   =20
+    <link rel=3D"stylesheet" href=3D"https://api.mongodb.com/python/2.2/_st=
+atic/default.css" type=3D"text/css">
+    <link rel=3D"stylesheet" href=3D"https://api.mongodb.com/python/2.2/_st=
+atic/pygments.css" type=3D"text/css">
+   =20
+   =20
+   =20
+   =20
+   =20
+    <link rel=3D"top" title=3D"PyMongo 2.2 documentation" href=3D"https://a=
+pi.mongodb.com/python/2.2/index.html">
+    <link rel=3D"next" title=3D"Tutorial" href=3D"https://api.mongodb.com/p=
+ython/2.2/tutorial.html">
+    <link rel=3D"prev" title=3D"PyMongo 2.2 Documentation" href=3D"https://=
+api.mongodb.com/python/2.2/index.html">=20
+  </head>
+  <body>
+    <div class=3D"related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://api.mongodb.com/python/2.2/genindex.html" titl=
+e=3D"General Index" accesskey=3D"I">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/py-modindex.html" t=
+itle=3D"Python Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/tutorial.html" titl=
+e=3D"Tutorial" accesskey=3D"N">next</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/index.html" title=
+=3D"PyMongo 2.2 Documentation" accesskey=3D"P">previous</a> |</li>
+        <li><a href=3D"https://api.mongodb.com/python/2.2/index.html">PyMon=
+go 2.2 documentation</a> =C2=BB</li>=20
+      </ul>
+    </div> =20
+
+    <div class=3D"document">
+      <div class=3D"documentwrapper">
+        <div class=3D"bodywrapper">
+          <div class=3D"body">
+           =20
+  <div class=3D"section" id=3D"installing-upgrading">
+<h1>Installing / Upgrading<a class=3D"headerlink" href=3D"https://api.mongo=
+db.com/python/2.2/installation.html#installing-upgrading" title=3D"Permalin=
+k to this headline">=C2=B6</a></h1>
+<p><strong>PyMongo</strong> is in the <a class=3D"reference external" href=
+=3D"http://pypi.python.org/pypi/pymongo/">Python Package Index</a>.</p>
+<div class=3D"section" id=3D"microsoft-windows">
+<h2>Microsoft Windows<a class=3D"headerlink" href=3D"https://api.mongodb.co=
+m/python/2.2/installation.html#microsoft-windows" title=3D"Permalink to thi=
+s headline">=C2=B6</a></h2>
+<p>We recommend using the <cite>MS Windows installers</cite> available from=
+ the <a class=3D"reference external" href=3D"http://pypi.python.org/pypi/py=
+mongo/">Python
+Package Index</a>.</p>
+</div>
+<div class=3D"section" id=3D"installing-with-pip">
+<h2>Installing with pip<a class=3D"headerlink" href=3D"https://api.mongodb.=
+com/python/2.2/installation.html#installing-with-pip" title=3D"Permalink to=
+ this headline">=C2=B6</a></h2>
+<p>We prefer <a class=3D"reference external" href=3D"http://pypi.python.org=
+/pypi/pip">pip</a>
+to install pymongo on platforms other than Windows:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>pip install pymongo
+</pre></div>
+</div>
+<p>To get a specific version of pymongo:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>pip install <span class=3D"nv">pymongo</span><span class=3D"o"=
+>=3D=3D</span>2.1.1
+</pre></div>
+</div>
+<p>To upgrade using pip:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>pip install --upgrade pymongo
+</pre></div>
+</div>
+</div>
+<div class=3D"section" id=3D"installing-with-easy-install">
+<h2>Installing with easy_install<a class=3D"headerlink" href=3D"https://api=
+.mongodb.com/python/2.2/installation.html#installing-with-easy-install" tit=
+le=3D"Permalink to this headline">=C2=B6</a></h2>
+<p>If you must install pymongo using
+<a class=3D"reference external" href=3D"http://pypi.python.org/pypi/setupto=
+ols">setuptools</a> do:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>easy_install pymongo
+</pre></div>
+</div>
+<p>To upgrade do:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>easy_install -U pymongo
+</pre></div>
+</div>
+</div>
+<div class=3D"section" id=3D"dependencies-for-installing-c-extensions-on-un=
+ix">
+<h2>Dependencies for installing C Extensions on Unix<a class=3D"headerlink"=
+ href=3D"https://api.mongodb.com/python/2.2/installation.html#dependencies-=
+for-installing-c-extensions-on-unix" title=3D"Permalink to this headline">=
+=C2=B6</a></h2>
+<p>10gen does not provide statically linked binary packages for Unix flavor=
+s
+other than OSX. To build the optional C extensions you must have the GNU C
+compiler (gcc) installed. Depending on your flavor of Unix (or Linux
+distribution) you may also need a python development package that provides
+the necessary header files for your version of Python. The package name may
+vary from distro to distro.</p>
+<p>Debian and Ubuntu users should issue the following command:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>sudo apt-get install build-essential python-dev
+</pre></div>
+</div>
+<p>RedHat, CentOS, and Fedora users should issue the following command:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>sudo yum install gcc python-devel
+</pre></div>
+</div>
+</div>
+<div class=3D"section" id=3D"osx">
+<h2>OSX<a class=3D"headerlink" href=3D"https://api.mongodb.com/python/2.2/i=
+nstallation.html#osx" title=3D"Permalink to this headline">=C2=B6</a></h2>
+<p>10gen provides pre-built egg packages for Apple provided Python versions=
+ on
+Snow Leopard (2.5, 2.6) and Lion (2.5, 2.6, 2.7). If you want to install
+PyMongo for other Python versions (or from source) you will have to install
+the following to build the C extensions:</p>
+<p><strong>Snow Leopard</strong> - Xcode 3 with =E2=80=98UNIX Development S=
+upport=E2=80=99.</p>
+<p><strong>Snow Leopard Xcode 4</strong>: The Python versions shipped with =
+OSX 10.6.x
+are universal binaries. They support i386, PPC, and (in the case of python2=
+.6)
+x86_64. Xcode 4 removed support for PPC, causing the distutils version ship=
+ped
+with Apple=E2=80=99s builds of Python to fail to build the C extensions if =
+you have
+Xcode 4 installed. There is a workaround:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+c"># For Apple-supplied Python2.6 (installed at /usr/bin/python2.6) and</sp=
+an>
+<span class=3D"c"># some builds from python.org</span>
+<span class=3D"nv">$ </span>env <span class=3D"nv">ARCHFLAGS</span><span cl=
+ass=3D"o">=3D</span><span class=3D"s1">'-arch i386 -arch x86_64'</span> pyt=
+hon -m easy_install pymongo
+
+<span class=3D"c"># For 32-bit-only Python (/usr/bin/python2.5) and some bu=
+ilds</span>
+<span class=3D"c"># from python.org</span>
+<span class=3D"nv">$ </span>env <span class=3D"nv">ARCHFLAGS</span><span cl=
+ass=3D"o">=3D</span><span class=3D"s1">'-arch i386'</span> python -m easy_i=
+nstall pymongo
+</pre></div>
+</div>
+<p>See <a class=3D"reference external" href=3D"http://bugs.python.org/issue=
+11623">http://bugs.python.org/issue11623</a>
+for a more detailed explanation.</p>
+<p><strong>Lion</strong> - PyMongo=E2=80=99s C extensions can be built agai=
+nst python.org versions of
+Python &gt;=3D 3.2. Building against versions older than 3.2.3 requires <st=
+rong>Xcode 4.1</strong>.
+Any version of Xcode 4 can be used to build the C extensions against 3.2.3 =
+and
+newer. In all cases Xcode must be installed with =E2=80=98UNIX Development =
+Support=E2=80=99.
+See the following for more information:</p>
+<p><a class=3D"reference external" href=3D"http://bugs.python.org/issue1359=
+0">http://bugs.python.org/issue13590</a></p>
+<p><a class=3D"reference external" href=3D"http://hg.python.org/cpython/fil=
+e/v3.2.3/Misc/NEWS#l198">http://hg.python.org/cpython/file/v3.2.3/Misc/NEWS=
+#l198</a></p>
+</div>
+<div class=3D"section" id=3D"installing-from-source">
+<h2>Installing from source<a class=3D"headerlink" href=3D"https://api.mongo=
+db.com/python/2.2/installation.html#installing-from-source" title=3D"Permal=
+ink to this headline">=C2=B6</a></h2>
+<p>If you=E2=80=99d rather install directly from the source (i.e. to stay o=
+n the
+bleeding edge), install the C extension dependencies then check out the
+latest source from github and install the driver from the resulting tree:</=
+p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>git clone git://github.com/mongodb/mongo-python-driver.git pym=
+ongo
+<span class=3D"nv">$ </span><span class=3D"nb">cd </span>pymongo/
+<span class=3D"nv">$ </span>python setup.py install
+</pre></div>
+</div>
+<div class=3D"section" id=3D"installing-from-source-on-windows">
+<h3>Installing from source on Windows<a class=3D"headerlink" href=3D"https:=
+//api.mongodb.com/python/2.2/installation.html#installing-from-source-on-wi=
+ndows" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">10gen provides pre-built exe installers for 32-bit and 64=
+-bit Windows. We
+recommend that users install those packages (<a class=3D"reference external=
+" href=3D"http://pypi.python.org/pypi/pymongo/">available from pypi</a>).</=
+p>
+</div>
+<p>If you want to install PyMongo with C extensions from source the followi=
+ng
+directions apply to both CPython and ActiveState=E2=80=99s ActivePython:</p=
+>
+<div class=3D"section" id=3D"bit-windows">
+<h4>64-bit Windows<a class=3D"headerlink" href=3D"https://api.mongodb.com/p=
+ython/2.2/installation.html#bit-windows" title=3D"Permalink to this headlin=
+e">=C2=B6</a></h4>
+<p>Install Visual Studio 2008. You must use the full version as Visual C++ =
+2008
+Express does not provide 64-bit compilers. Make sure that you check the
+=E2=80=9Cx64 Compilers and Tools=E2=80=9D option under Visual C++.</p>
+</div>
+<div class=3D"section" id=3D"id2">
+<h4>32-bit Windows<a class=3D"headerlink" href=3D"https://api.mongodb.com/p=
+ython/2.2/installation.html#id2" title=3D"Permalink to this headline">=C2=
+=B6</a></h4>
+<p>For Python 2.6 and newer install Visual C++ 2008 Express SP1.</p>
+<p>For Python 2.4 or 2.5 you must install
+<a class=3D"reference external" href=3D"http://www.mingw.org/wiki/Installat=
+ionHOWTOforMinGW">MingW32</a> then run the
+following command to install:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre>python setup.py=
+ build -c mingw32 install
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"section" id=3D"installing-without-c-extensions">
+<span id=3D"install-no-c"></span><h2>Installing Without C Extensions<a clas=
+s=3D"headerlink" href=3D"https://api.mongodb.com/python/2.2/installation.ht=
+ml#installing-without-c-extensions" title=3D"Permalink to this headline">=
+=C2=B6</a></h2>
+<p>By default, the driver attempts to build and install optional C
+extensions (used for increasing performance) when it is installed. If
+any extension fails to build the driver will be installed anyway but a
+warning will be printed.</p>
+<p>In <a class=3D"reference internal" href=3D"https://api.mongodb.com/pytho=
+n/2.2/faq.html#using-with-mod-wsgi"><em>certain cases</em></a>, you might w=
+ish to
+install the driver without the C extensions, even if the extensions
+build properly. This can be done using a command line option to
+<em>setup.py</em>:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>python setup.py --no_ext install
+</pre></div>
+</div>
+</div>
+<div class=3D"section" id=3D"building-pymongo-egg-packages">
+<h2>Building PyMongo egg Packages<a class=3D"headerlink" href=3D"https://ap=
+i.mongodb.com/python/2.2/installation.html#building-pymongo-egg-packages" t=
+itle=3D"Permalink to this headline">=C2=B6</a></h2>
+<p>Some organizations do not allow compilers and other build tools on produ=
+ction
+systems. To install PyMongo on these systems with C extensions you may need=
+ to
+build custom egg packages. Make sure that you have installed the dependenci=
+es
+listed above for your operating system then run the following command in th=
+e
+PyMongo source directory:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>python setup.py bdist_egg
+</pre></div>
+</div>
+<p>The egg package can be found in the dist/ subdirectory. The file name wi=
+ll
+resemble =E2=80=9Cpymongo-2.2-py2.7-linux-x86_64.egg=E2=80=9D but may have =
+a different name
+depending on your platform and the version of python you use to compile.</p=
+>
+<div class=3D"admonition warning">
+<p class=3D"first admonition-title">Warning</p>
+<p class=3D"last">These =E2=80=9Cbinary distributions,=E2=80=9D will only w=
+ork on systems that resemble the
+environment on which you built the package. In other words, ensure that
+operating systems and versions of Python and architecture (i.e. =E2=80=9C32=
+=E2=80=9D or =E2=80=9C64=E2=80=9D
+bit) match.</p>
+</div>
+<p>Copy this file to the target system and issue the following command to i=
+nstall the
+package:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>sudo easy_install pymongo-2.2-py2.7-linux-x86_64.egg
+</pre></div>
+</div>
+</div>
+<div class=3D"section" id=3D"installing-a-release-candidate">
+<h2>Installing a release candidate<a class=3D"headerlink" href=3D"https://a=
+pi.mongodb.com/python/2.2/installation.html#installing-a-release-candidate"=
+ title=3D"Permalink to this headline">=C2=B6</a></h2>
+<p>10gen may occasionally tag a release candidate for testing by the commun=
+ity
+before final release. These releases will not be uploaded to pypi but can b=
+e
+found on the
+<a class=3D"reference external" href=3D"https://github.com/mongodb/mongo-py=
+thon-driver/tags">github tags page</a>.
+They can be installed by passing the full URL for the tag to pip:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>pip install https://github.com/mongodb/mongo-python-driver/tar=
+ball/2.2rc1
+</pre></div>
+</div>
+<p>or easy_install:</p>
+<div class=3D"highlight-bash"><div class=3D"highlight"><pre><span class=3D"=
+nv">$ </span>easy_install https://github.com/mongodb/mongo-python-driver/ta=
+rball/2.2rc1
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class=3D"sphinxsidebar">
+        <div class=3D"sphinxsidebarwrapper">
+  <h3><a href=3D"https://api.mongodb.com/python/2.2/index.html">Table Of Co=
+ntents</a></h3>
+  <ul>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#">Installing / Upgrading</a><ul>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#microsoft-windows">Microsoft Windows</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-with-pip">Installing with pip</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-with-easy-install">Installing with easy_in=
+stall</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#dependencies-for-installing-c-extensions-on-unix">Dep=
+endencies for installing C Extensions on Unix</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#osx">OSX</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-from-source">Installing from source</a><ul=
+>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-from-source-on-windows">Installing from so=
+urce on Windows</a><ul>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#bit-windows">64-bit Windows</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#id2">32-bit Windows</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-without-c-extensions">Installing Without C=
+ Extensions</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#building-pymongo-egg-packages">Building PyMongo egg P=
+ackages</a></li>
+<li><a class=3D"reference internal" href=3D"https://api.mongodb.com/python/=
+2.2/installation.html#installing-a-release-candidate">Installing a release =
+candidate</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class=3D"topless"><a href=3D"https://api.mongodb.com/python/2.2/index.=
+html" title=3D"previous chapter">PyMongo 2.2 Documentation</a></p>
+  <h4>Next topic</h4>
+  <p class=3D"topless"><a href=3D"https://api.mongodb.com/python/2.2/tutori=
+al.html" title=3D"next chapter">Tutorial</a></p>
+  <h3>This Page</h3>
+  <ul class=3D"this-page-menu">
+    <li><a href=3D"https://api.mongodb.com/python/2.2/_sources/installation=
+.txt" rel=3D"nofollow">Show Source</a></li>
+  </ul>
+<div id=3D"searchbox" style=3D"">
+  <h3>Quick search</h3>
+    <form class=3D"search" action=3D"https://api.mongodb.com/python/2.2/sea=
+rch.html" method=3D"get">
+      <input type=3D"text" name=3D"q">
+      <input type=3D"submit" value=3D"Go">
+     =20
+     =20
+    </form>
+    <p class=3D"searchtip" style=3D"font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+
+        </div>
+      </div>
+      <div class=3D"clearer"></div>
+    </div>
+    <div class=3D"related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://api.mongodb.com/python/2.2/genindex.html" titl=
+e=3D"General Index">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/py-modindex.html" t=
+itle=3D"Python Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/tutorial.html" titl=
+e=3D"Tutorial">next</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://api.mongodb.com/python/2.2/index.html" title=
+=3D"PyMongo 2.2 Documentation">previous</a> |</li>
+        <li><a href=3D"https://api.mongodb.com/python/2.2/index.html">PyMon=
+go 2.2 documentation</a> =C2=BB</li>=20
+      </ul>
+    </div>
+    <div class=3D"footer">
+        =C2=A9 Copyright 2008 - 2011, 10gen, Inc..
+      Created using <a href=3D"http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+ =20
+</body></html>
+------MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://api.mongodb.com/python/2.2/_static/default.css
+
+@charset "utf-8";
+
+@import url("basic.css");
+
+body { font-family: sans-serif; font-size: 100%; background-color: rgb(17, =
+48, 61); color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+
+div.document { background-color: rgb(28, 78, 99); }
+
+div.documentwrapper { float: left; width: 100%; }
+
+div.bodywrapper { margin: 0px 0px 0px 230px; }
+
+div.body { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); paddi=
+ng: 0px 20px 30px; }
+
+div.footer { color: rgb(255, 255, 255); width: 100%; padding: 9px 0px; text=
+-align: center; font-size: 75%; }
+
+div.footer a { color: rgb(255, 255, 255); text-decoration: underline; }
+
+div.related { background-color: rgb(19, 63, 82); line-height: 30px; color: =
+rgb(255, 255, 255); }
+
+div.related a { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar { }
+
+div.sphinxsidebar h3 { font-family: "Trebuchet MS", sans-serif; color: rgb(=
+255, 255, 255); font-size: 1.4em; font-weight: normal; margin: 0px; padding=
+: 0px; }
+
+div.sphinxsidebar h3 a { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar h4 { font-family: "Trebuchet MS", sans-serif; color: rgb(=
+255, 255, 255); font-size: 1.3em; font-weight: normal; margin: 5px 0px 0px;=
+ padding: 0px; }
+
+div.sphinxsidebar p { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar p.topless { margin: 5px 10px 10px; }
+
+div.sphinxsidebar ul { margin: 10px; padding: 0px; color: rgb(255, 255, 255=
+); }
+
+div.sphinxsidebar a { color: rgb(152, 219, 204); }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family=
+: sans-serif; font-size: 1em; }
+
+a { color: rgb(53, 95, 124); text-decoration: none; }
+
+a:visited { color: rgb(53, 95, 124); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { font-family: "Trebuchet MS", sans-serif; background-color: rgb(242, 242=
+, 242); font-weight: normal; color: rgb(32, 67, 92); border-bottom: 1px sol=
+id rgb(204, 204, 204); margin: 20px -20px 10px; padding: 3px 0px 3px 10px; =
+}
+
+div.body h1 { margin-top: 0px; font-size: 200%; }
+
+div.body h2 { font-size: 160%; }
+
+div.body h3 { font-size: 140%; }
+
+div.body h4 { font-size: 120%; }
+
+div.body h5 { font-size: 110%; }
+
+div.body h6 { font-size: 100%; }
+
+a.headerlink { color: rgb(198, 15, 15); font-size: 0.8em; padding: 0px 4px;=
+ text-decoration: none; }
+
+a.headerlink:hover { background-color: rgb(198, 15, 15); color: white; }
+
+div.body p, div.body dd, div.body li { text-align: justify; line-height: 13=
+0%; }
+
+div.admonition p.admonition-title + p { display: inline; }
+
+div.admonition p { margin-bottom: 5px; }
+
+div.admonition pre { margin-bottom: 5px; }
+
+div.admonition ul, div.admonition ol { margin-bottom: 5px; }
+
+div.note { background-color: rgb(238, 238, 238); border: 1px solid rgb(204,=
+ 204, 204); }
+
+div.seealso { background-color: rgb(255, 255, 204); border: 1px solid rgb(2=
+55, 255, 102); }
+
+div.topic { background-color: rgb(238, 238, 238); }
+
+div.warning { background-color: rgb(255, 228, 228); border: 1px solid rgb(2=
+55, 102, 102); }
+
+p.admonition-title { display: inline; }
+
+p.admonition-title::after { content: ":"; }
+
+pre { padding: 5px; background-color: rgb(238, 255, 204); color: rgb(51, 51=
+, 51); line-height: 120%; border-top: 1px solid rgb(170, 204, 153); border-=
+bottom: 1px solid rgb(170, 204, 153); border-image: initial; border-left: n=
+one; border-right: none; }
+
+tt { background-color: rgb(236, 240, 243); padding: 0px 1px; font-size: 0.9=
+5em; }
+
+th { background-color: rgb(238, 221, 238); }
+
+.warning tt { background: rgb(239, 194, 194); }
+
+.note tt { background: rgb(214, 214, 214); }
+
+.viewcode-back { font-family: sans-serif; }
+
+div.viewcode-block:target { background-color: rgb(244, 222, 191); border-to=
+p: 1px solid rgb(170, 204, 153); border-bottom: 1px solid rgb(170, 204, 153=
+); }
+------MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://api.mongodb.com/python/2.2/_static/basic.css
+
+@charset "utf-8";
+
+div.clearer { clear: both; }
+
+div.related { width: 100%; font-size: 90%; }
+
+div.related h3 { display: none; }
+
+div.related ul { margin: 0px; padding: 0px 0px 0px 10px; list-style: none; =
+}
+
+div.related li { display: inline; }
+
+div.related li.right { float: right; margin-right: 5px; }
+
+div.sphinxsidebarwrapper { padding: 10px 5px 0px 10px; }
+
+div.sphinxsidebar { float: left; width: 230px; margin-left: -100%; font-siz=
+e: 90%; }
+
+div.sphinxsidebar ul { list-style: none; }
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points { margin-left: 20=
+px; list-style: square; }
+
+div.sphinxsidebar ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+div.sphinxsidebar form { margin-top: 10px; }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family=
+: sans-serif; font-size: 1em; }
+
+div.sphinxsidebar input[type=3D"text"] { width: 170px; }
+
+div.sphinxsidebar input[type=3D"submit"] { width: 30px; }
+
+img { border: 0px; }
+
+ul.search { margin: 10px 0px 0px 20px; padding: 0px; }
+
+ul.search li { padding: 5px 0px 5px 20px; background-image: url("file.png")=
+; background-repeat: no-repeat; background-position: 0px 7px; }
+
+ul.search li a { font-weight: bold; }
+
+ul.search li div.context { color: rgb(136, 136, 136); margin: 2px 0px 0px 3=
+0px; text-align: left; }
+
+ul.keywordmatches li.goodmatch a { font-weight: bold; }
+
+table.contentstable { width: 90%; }
+
+table.contentstable p.biglink { line-height: 150%; }
+
+a.biglink { font-size: 1.3em; }
+
+span.linkdescr { font-style: italic; padding-top: 5px; font-size: 90%; }
+
+table.indextable { width: 100%; }
+
+table.indextable td { text-align: left; vertical-align: top; }
+
+table.indextable dl, table.indextable dd { margin-top: 0px; margin-bottom: =
+0px; }
+
+table.indextable tr.pcap { height: 10px; }
+
+table.indextable tr.cap { margin-top: 10px; background-color: rgb(242, 242,=
+ 242); }
+
+img.toggler { margin-right: 3px; margin-top: 3px; cursor: pointer; }
+
+div.modindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+div.genindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+a.headerlink { visibility: hidden; }
+
+h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink, =
+h4:hover > a.headerlink, h5:hover > a.headerlink, h6:hover > a.headerlink, =
+dt:hover > a.headerlink { visibility: visible; }
+
+div.body p.caption { text-align: inherit; }
+
+div.body td { text-align: left; }
+
+.field-list ul { padding-left: 1em; }
+
+.first { margin-top: 0px !important; }
+
+p.rubric { margin-top: 30px; font-weight: bold; }
+
+img.align-left, .figure.align-left, object.align-left { clear: left; float:=
+ left; margin-right: 1em; }
+
+img.align-right, .figure.align-right, object.align-right { clear: right; fl=
+oat: right; margin-left: 1em; }
+
+img.align-center, .figure.align-center, object.align-center { display: bloc=
+k; margin-left: auto; margin-right: auto; }
+
+.align-left { text-align: left; }
+
+.align-center { text-align: center; }
+
+.align-right { text-align: right; }
+
+div.sidebar { margin: 0px 0px 0.5em 1em; border: 1px solid rgb(221, 221, 18=
+7); padding: 7px 7px 0px; background-color: rgb(255, 255, 238); width: 40%;=
+ float: right; }
+
+p.sidebar-title { font-weight: bold; }
+
+div.topic { border: 1px solid rgb(204, 204, 204); padding: 7px 7px 0px; mar=
+gin: 10px 0px; }
+
+p.topic-title { font-size: 1.1em; font-weight: bold; margin-top: 10px; }
+
+div.admonition { margin-top: 10px; margin-bottom: 10px; padding: 7px; }
+
+div.admonition dt { font-weight: bold; }
+
+div.admonition dl { margin-bottom: 0px; }
+
+p.admonition-title { margin: 0px 10px 5px 0px; font-weight: bold; }
+
+div.body p.centered { text-align: center; margin-top: 25px; }
+
+table.docutils { border: 0px; border-collapse: collapse; }
+
+table.docutils td, table.docutils th { padding: 1px 8px 1px 5px; border-wid=
+th: 0px 0px 1px; border-top-style: initial; border-top-color: initial; bord=
+er-left-style: initial; border-left-color: initial; border-right-style: ini=
+tial; border-right-color: initial; border-bottom-style: solid; border-botto=
+m-color: rgb(170, 170, 170); }
+
+table.field-list td, table.field-list th { border: 0px !important; }
+
+table.footnote td, table.footnote th { border: 0px !important; }
+
+th { text-align: left; padding-right: 5px; }
+
+table.citation { border-left: 1px solid gray; margin-left: 1px; }
+
+table.citation td { border-bottom: none; }
+
+ol.arabic { list-style: decimal; }
+
+ol.loweralpha { list-style: lower-alpha; }
+
+ol.upperalpha { list-style: upper-alpha; }
+
+ol.lowerroman { list-style: lower-roman; }
+
+ol.upperroman { list-style: upper-roman; }
+
+dl { margin-bottom: 15px; }
+
+dd p { margin-top: 0px; }
+
+dd ul, dd table { margin-bottom: 10px; }
+
+dd { margin-top: 3px; margin-bottom: 10px; margin-left: 30px; }
+
+dt:target, .highlighted { background-color: rgb(251, 229, 78); }
+
+dl.glossary dt { font-weight: bold; font-size: 1.1em; }
+
+.field-list ul { margin: 0px; padding-left: 1em; }
+
+.field-list p { margin: 0px; }
+
+.refcount { color: rgb(0, 102, 0); }
+
+.optional { font-size: 1.3em; }
+
+.versionmodified { font-style: italic; }
+
+.system-message { background-color: rgb(255, 221, 170); padding: 5px; borde=
+r: 3px solid red; }
+
+.footnote:target { background-color: rgb(255, 255, 170); }
+
+.line-block { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+.line-block .line-block { margin-top: 0px; margin-bottom: 0px; margin-left:=
+ 1.5em; }
+
+.guilabel, .menuselection { font-family: sans-serif; }
+
+.accelerator { text-decoration: underline; }
+
+.classifier { font-style: oblique; }
+
+abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+
+pre { overflow: auto hidden; }
+
+td.linenos pre { padding: 5px 0px; border: 0px; background-color: transpare=
+nt; color: rgb(170, 170, 170); }
+
+table.highlighttable { margin-left: 0.5em; }
+
+table.highlighttable td { padding: 0px 0.5em; }
+
+tt.descname { background-color: transparent; font-weight: bold; font-size: =
+1.2em; }
+
+tt.descclassname { background-color: transparent; }
+
+tt.xref, a tt { background-color: transparent; font-weight: bold; }
+
+h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt { background-color: transparent; }
+
+.viewcode-link { float: right; }
+
+.viewcode-back { float: right; font-family: sans-serif; }
+
+div.viewcode-block:target { margin: -1px -10px; padding: 0px 10px; }
+
+img.math { vertical-align: middle; }
+
+div.body div.math p { text-align: center; }
+
+span.eqno { float: right; }
+
+@media print {
+  div.document, div.documentwrapper, div.bodywrapper { width: 100%; margin:=
+ 0px !important; }
+  div.sphinxsidebar, div.related, div.footer, #top-link { display: none; }
+}
+------MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://api.mongodb.com/python/2.2/_static/pygments.css
+
+@charset "utf-8";
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight { background: rgb(238, 255, 204); }
+
+.highlight .c { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .err { border: 1px solid rgb(255, 0, 0); }
+
+.highlight .k { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .o { color: rgb(102, 102, 102); }
+
+.highlight .cm { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cp { color: rgb(0, 112, 32); }
+
+.highlight .c1 { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cs { color: rgb(64, 128, 144); background-color: rgb(255, 240, =
+240); }
+
+.highlight .gd { color: rgb(160, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(255, 0, 0); }
+
+.highlight .gh { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gi { color: rgb(0, 160, 0); }
+
+.highlight .go { color: rgb(48, 48, 48); }
+
+.highlight .gp { color: rgb(198, 93, 9); font-weight: bold; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(128, 0, 128); font-weight: bold; }
+
+.highlight .gt { color: rgb(0, 64, 208); }
+
+.highlight .kc { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kd { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kn { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kp { color: rgb(0, 112, 32); }
+
+.highlight .kr { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kt { color: rgb(144, 32, 0); }
+
+.highlight .m { color: rgb(32, 128, 80); }
+
+.highlight .s { color: rgb(64, 112, 160); }
+
+.highlight .na { color: rgb(64, 112, 160); }
+
+.highlight .nb { color: rgb(0, 112, 32); }
+
+.highlight .nc { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .no { color: rgb(96, 173, 213); }
+
+.highlight .nd { color: rgb(85, 85, 85); font-weight: bold; }
+
+.highlight .ni { color: rgb(213, 85, 55); font-weight: bold; }
+
+.highlight .ne { color: rgb(0, 112, 32); }
+
+.highlight .nf { color: rgb(6, 40, 126); }
+
+.highlight .nl { color: rgb(0, 32, 112); font-weight: bold; }
+
+.highlight .nn { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .nt { color: rgb(6, 40, 115); font-weight: bold; }
+
+.highlight .nv { color: rgb(187, 96, 213); }
+
+.highlight .ow { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mf { color: rgb(32, 128, 80); }
+
+.highlight .mh { color: rgb(32, 128, 80); }
+
+.highlight .mi { color: rgb(32, 128, 80); }
+
+.highlight .mo { color: rgb(32, 128, 80); }
+
+.highlight .sb { color: rgb(64, 112, 160); }
+
+.highlight .sc { color: rgb(64, 112, 160); }
+
+.highlight .sd { color: rgb(64, 112, 160); font-style: italic; }
+
+.highlight .s2 { color: rgb(64, 112, 160); }
+
+.highlight .se { color: rgb(64, 112, 160); font-weight: bold; }
+
+.highlight .sh { color: rgb(64, 112, 160); }
+
+.highlight .si { color: rgb(112, 160, 208); font-style: italic; }
+
+.highlight .sx { color: rgb(198, 93, 9); }
+
+.highlight .sr { color: rgb(35, 83, 136); }
+
+.highlight .s1 { color: rgb(64, 112, 160); }
+
+.highlight .ss { color: rgb(81, 121, 24); }
+
+.highlight .bp { color: rgb(0, 112, 32); }
+
+.highlight .vc { color: rgb(187, 96, 213); }
+
+.highlight .vg { color: rgb(187, 96, 213); }
+
+.highlight .vi { color: rgb(187, 96, 213); }
+
+.highlight .il { color: rgb(32, 128, 80); }
+------MultipartBoundary--WFvsy2915pY4xsWfnviNsbBCP9p1fhloeoVHiXNkDE------
