@@ -18,12 +18,12 @@ mongo = PyMongo(app)
 def index():
 
     # Find one record of data from the mongo database
-    mars_data = mongo.db.collection.find_one()
+    mars_data = mongo.db.marsData.find_one()
 
     # Return template and data
-    #return render_template("index,html", mars_data)
-    print(mars_data)
-    return "Flas data loaded success"    
+    return render_template("index.html", data = mars_data)
+   ##print(mars_data)
+   # return "Flas data loaded success"    
 
 
 # Route that will trigger the scrape function and run app
